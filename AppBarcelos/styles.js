@@ -26,6 +26,25 @@ export const styles = StyleSheet.create({
        margin: 5,
    },
 
+   menuMercado: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    },
+
+    buttonMenuMercado: {
+    backgroundColor: 'orange',
+    width: 120,
+    height: 20,
+    alignItems: 'center',
+    margin: 5,
+    borderColor: 'red',
+    },
+
+    textMenuMercado: {
+    fontWeight: 'bold',
+    },
+
 // Components
 
    button: {
@@ -41,7 +60,7 @@ export const styles = StyleSheet.create({
        backgroundColor: 'orange',
        width: 150,
        height: 150,
-       margin: 5,
+       margin: 0,
        alignItems: 'center',
        justifyContent: 'center',
        flexDirection: 'column',
@@ -59,19 +78,6 @@ export const styles = StyleSheet.create({
        marginTop: 20,
    },
 
-   menuMercado: {
-       flexDirection: 'row',
-       alignItems: 'center',
-       justifyContent: 'center',
-   },
-
-   buttonMenuMercado: {
-    backgroundColor: 'orange',
-    width: 120,
-    height: 20,
-    alignItems: 'center',
-    margin: 5,
-   },
 
     // Footer
 
