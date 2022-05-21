@@ -59,6 +59,20 @@ export const styles = StyleSheet.create({
        marginTop: 20,
    },
 
+   menuMercado: {
+       flexDirection: 'row',
+       alignItems: 'center',
+       justifyContent: 'center',
+   },
+
+   buttonMenuMercado: {
+    backgroundColor: 'orange',
+    width: 120,
+    height: 20,
+    alignItems: 'center',
+    margin: 5,
+   },
+
     // Footer
 
    footer: {

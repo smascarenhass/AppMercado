@@ -6,6 +6,7 @@ import Titulo from '../../components/Titulo';
 import Icons from 'react-native-vector-icons/AntDesign'
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
+import Mercado from '../Mercado';
 
 export default function Home({navigation}) {
   return (
@@ -24,7 +25,7 @@ export default function Home({navigation}) {
             </View>
 
             <View style={styles.button}>
-              <TouchableOpacity onPress={() => navigation.navigate('Promoçoes')}>
+              <TouchableOpacity onPress={() => navigation.navigate('Mercado')}>
               <Icons name='isv' size={30} color='orange'/>
               </TouchableOpacity>
             </View>
