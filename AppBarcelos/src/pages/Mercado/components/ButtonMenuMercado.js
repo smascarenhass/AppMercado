@@ -3,10 +3,10 @@ import { View, Text } from 'react-native';
 import { TouchableOpacity } from 'react-native-web';
 import { styles } from '../../../../styles';
 
-const ButtonMenuMercado = () => {
+const ButtonMenuMercado = (props) => {
   return (
       <TouchableOpacity onPress={() => {}} style={styles.buttonMenuMercado}>
-            <Text style={styles.textMenuMercado}>Frios</Text>
+            <Text style={styles.textMenuMercado}>{props.name}</Text>
       </TouchableOpacity>
       );
 }

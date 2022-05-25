@@ -33,12 +33,15 @@ export const styles = StyleSheet.create({
     },
 
     buttonMenuMercado: {
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 3,
     backgroundColor: 'orange',
     width: 120,
-    height: 20,
-    alignItems: 'center',
+    height: 30,
     margin: 5,
-    borderColor: 'red',
+    borderColor: 'yellow',
     },
 
     textMenuMercado: {
@@ -46,6 +49,12 @@ export const styles = StyleSheet.create({
     },
 
 // Components
+
+   pesquisar: {
+       backgroundColor: '#A9A9A9',
+       alignItems: 'center',
+       justifyContent: 'center', 
+   },
 
    button: {
        margin: 5,

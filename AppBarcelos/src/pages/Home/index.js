@@ -7,6 +7,7 @@ import Icons from 'react-native-vector-icons/AntDesign'
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
 import Mercado from '../Mercado';
+import Pesquisar from '../../components/Pesquisar';
 
 export default function Home({navigation}) {
   return (
@@ -14,6 +15,7 @@ export default function Home({navigation}) {
        <View>
  
  {/* Header */}
+
  
          <View>
            <Titulo />
@@ -47,38 +49,42 @@ export default function Home({navigation}) {
          </View>
  
  {/* Main  */}
- 
-                    <View style={styles.main}>
+
+            <Pesquisar />
+
+
+
+            <View style={styles.main}>
             
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
-            <View style={styles.cardsPromoçoes}>
-                <Card/>
-                <Card/>
-            </View>
+                <View style={styles.cardsPromoçoes}>
+                    <Card/>
+                    <Card/>
+                </View>
 
             </View>
  

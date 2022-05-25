@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { TouchableOpacity } from 'react-native-web';
 import { styles } from '../../styles';
 
-const Card = () => {
+function Card ({navigation}) {
 
-  return <View style={styles.card}>
+  return <TouchableOpacity onPress={() => navigation.navigate('Promoçoes')} style={styles.card}>
 
     <View>
         <Text>
@@ -12,7 +13,7 @@ const Card = () => {
         </Text>
     </View>
 
-  </View>;
+  </TouchableOpacity>;
 }
 
 export default Card;

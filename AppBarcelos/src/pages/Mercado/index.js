@@ -3,6 +3,7 @@ import { View, Text } from 'react-native';
 import { TouchableOpacity } from 'react-native-web';
 import { styles } from '../../../styles';
 import Footer from '../../components/Footer';
+import Pesquisar from '../../components/Pesquisar';
 import ButtonMenuMercado from './components/ButtonMenuMercado';
 
 
@@ -11,23 +12,29 @@ const Mercado = () => {
       <View style={styles.painelNavegaçao}>
           <View style={{padding:20,}}>
               <View style={styles.menuMercado}>
-                  <ButtonMenuMercado/>
-                  <ButtonMenuMercado/>
-                  <ButtonMenuMercado/>
+                  <ButtonMenuMercado name='Frios'/>
+                  <ButtonMenuMercado name='Açougue'/>
+                  <ButtonMenuMercado name='Padaria'/>
               </View>
               <View style={styles.menuMercado}>
-                  <ButtonMenuMercado/>
-                  <ButtonMenuMercado/>
-                  <ButtonMenuMercado/>
+                  <ButtonMenuMercado name='Limpeza'/>
+                  <ButtonMenuMercado name='Hortifruti'/>
+                  <ButtonMenuMercado name='Bebidas'/>
               </View>
           </View>
       </View>
+
+ {/* Main */}
+
+        <Pesquisar />
 
         <View>
             <Text>
                 Hello world!
             </Text>
         </View>
+
+ {/* Footer */}
 
         <View>
             <Footer/>

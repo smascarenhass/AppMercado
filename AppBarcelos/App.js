@@ -5,7 +5,6 @@ import Home from './src/pages/Home';
 import Promoçoes from './src/pages/Promoçoes';
 import Mercado from './src/pages/Mercado';
 
-
 const Stack = createNativeStackNavigator ();
 
 export default function App() {
