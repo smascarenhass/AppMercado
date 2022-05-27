@@ -6,10 +6,11 @@ import Titulo from '../../components/Titulo';
 import Icons from 'react-native-vector-icons/AntDesign'
 import Card from '../../components/Card';
 import Footer from '../../components/Footer';
-import Mercado from '../Mercado';
 import Pesquisar from '../../components/Pesquisar';
 
+
 export default function Home({navigation}) {
+
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
        <View>
@@ -55,6 +56,10 @@ export default function Home({navigation}) {
 
 
             <View style={styles.main}>
+
+              <View style={styles.slideView}>
+                  
+              </View>
             
                 <View style={styles.cardsPromoçoes}>
                     <Card/>

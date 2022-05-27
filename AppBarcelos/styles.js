@@ -87,6 +87,10 @@ export const styles = StyleSheet.create({
        marginTop: 20,
    },
 
+   slideView:{
+       
+   },
+
 
     // Footer
 

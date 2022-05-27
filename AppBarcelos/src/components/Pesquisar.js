@@ -10,8 +10,9 @@ const Pesquisar = () => {
        marginTop: 10,
         borderColor: 'orange',
          borderWidth: 3,
+         marginBottom: 5,
         }}
-     placeholder='O que está procurando?'/>;
+     placeholder='O que está procurando?'/>
   </View>
 }
 

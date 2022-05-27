@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { TouchableOpacity } from 'react-native-web';
 import { styles } from '../../../styles';
 import Footer from '../../components/Footer';
 import Pesquisar from '../../components/Pesquisar';
